@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Modules\Scoring\Contracts;
+namespace App\Contracts;
 
 interface AfterExecutePodcastsContract
 {

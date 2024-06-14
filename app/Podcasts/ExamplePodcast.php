@@ -1,9 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace app\Modules\Scoring\Podcasts\DoScoring;
-
-use App\Modules\Scoring\Podcasts\ManagementPodcast;
+namespace App\Podcasts;
 
 final class ExamplePodcast extends ManagementPodcast
 {

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Modules\Scoring\Podcasts;
+namespace App\Podcasts;
 
-use App\Modules\Scoring\Contracts\AfterExecutePodcastsContract;
+use App\Contracts\AfterExecutePodcastsContract;
 
 abstract class ManagementPodcast extends BasePodcast implements AfterExecutePodcastsContract
 {
